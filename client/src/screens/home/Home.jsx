@@ -1,8 +1,9 @@
 import React from 'react';
 import Frame2 from '../../assets/Frame 2.png'
+import unsplash1 from '../../assets/unsplash1.png'
 const Home = () => {
   return (
-    <div className="pt-24"
+    <div
     style={{
       backgroundImage: `url(${Frame2})`,
       width: '100vw',
@@ -11,7 +12,14 @@ const Home = () => {
       backgroundRepeat: 'no-repeat',
       paddingTop: '160px'
     }}> {/* Add padding to account for fixed navbar and footer */}
-      hi
+      <div>
+        <h1
+        className='p-40 font-merriweather-bold-italic text-4xl'
+        >Crafting Your Perfect Stay, Every Step of the Way</h1>
+      </div>
+      <div style={{ backgroundImage: `url(${unsplash1})` }}>
+        
+      </div>
     </div>
   );
 };

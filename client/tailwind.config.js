@@ -12,6 +12,9 @@ export default {
       },
       fontFamily: {
         'playwrite-au-vic': ['"Playwrite AU VIC"', 'cursive'],
+        'roboto-medium': ["Roboto", 'sans-serif'],
+        'merriweather-regular':["Merriweather", 'serif'],
+        'merriweather-bold-italic':["Merriweather", 'serif'],
       },
     },
   },
