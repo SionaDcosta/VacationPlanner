@@ -4,6 +4,7 @@ import unsplash1 from '../../assets/unsplash1.png'
 const Home = () => {
   return (
     <div
+    className="flex items-center justify-between p-40"
     style={{
       backgroundImage: `url(${Frame2})`,
       width: '100vw',
@@ -14,11 +15,13 @@ const Home = () => {
     }}> {/* Add padding to account for fixed navbar and footer */}
       <div>
         <h1
-        className='p-40 font-merriweather-bold-italic text-4xl'
+        className='font-merriweather-bold-italic text-4xl'
         >Crafting Your Perfect Stay, Every Step of the Way</h1>
       </div>
-      <div style={{ backgroundImage: `url(${unsplash1})` }}>
-        
+      <div
+      
+      >
+      <img src={unsplash1} alt="Description of the image" className="max-w-full h-auto"/>
       </div>
     </div>
   );
