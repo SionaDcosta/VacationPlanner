@@ -16,7 +16,7 @@ const Layout = () => {
   return (
     <>
       <Navbar />
-      <div className="flex-grow">
+      <div>
         <Outlet />
       </div>
       <Footer />
