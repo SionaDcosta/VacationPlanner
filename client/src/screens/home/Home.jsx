@@ -9,6 +9,7 @@ const Home = () => {
       height: '100vh',
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
+      paddingTop: '160px'
     }}> {/* Add padding to account for fixed navbar and footer */}
       hi
     </div>
