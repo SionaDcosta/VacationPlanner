@@ -4,12 +4,12 @@ import Navbar from '../src/components/Navbar';
 import Footer from '../src/components/Footer';
 import Home from '../src/screens/home/Home';
 import Contact from './screens/contactUs/Contact';
-// import Packages from './pages/Packages';
+import Packages from './screens/packages/Packages';
 // import LoginSignup from './pages/LoginSignup';
 
 
 
-const Packages = () => <h1 className="text-3xl font-bold">Packages</h1>;
+
 const LoginSignup = () => <h1 className="text-3xl font-bold">Login/Signup</h1>;
 
 const Layout = () => {
