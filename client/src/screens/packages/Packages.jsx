@@ -1,7 +1,9 @@
 import React from 'react';
 import {Card, CardContent, Typography, Grid, Box, } from '@mui/material'
 import DoneAllIcon from '@mui/icons-material/DoneAll';
+import RemoveDoneIcon from '@mui/icons-material/RemoveDone';
 import unsplash1 from '../../assets/unsplash1.png'
+
 const Packages = () => {
     const cardStyle = {
         // width: '300px',  // Adjust the width as needed
@@ -23,7 +25,7 @@ const Packages = () => {
         <Grid item xs={10} sm={6} md={3} zIndex={2} position="relative">
             <Card elevation={10} sx={cardStyle}>
               <CardContent>
-                <Typography variant="h5" component="h2" gutterBottom>
+                <Typography variant="h5" component="h2" gutterBottom sx={{ textAlign: 'center' }}>
                   Basic
                 </Typography>
                 <Box component="img" src={unsplash1} alt="Basic Plan" sx={{ width: '100%', height: 'auto', marginBottom: '16px' }} />
@@ -39,10 +41,34 @@ const Packages = () => {
                     Stay
                   </Typography>
                 </Box>
-                <Box display="flex" alignItems="center">
-                  <DoneAllIcon/>
+                <Box display="flex" alignItems="center" mb={1}>
+                <RemoveDoneIcon sx={{color:'grey'}}/>
                   <Typography variant="body2" color="textSecondary" ml={1}>
                     Local Travel
+                  </Typography>
+                </Box>
+                <Box display="flex" alignItems="center" mb={1}>
+                  <RemoveDoneIcon sx={{color:'grey'}}/>
+                  <Typography variant="body2" color="textSecondary" ml={1}>
+                    Party
+                  </Typography>
+                </Box>
+                <Box display="flex" alignItems="center" mb={1}>
+                  <RemoveDoneIcon sx={{color:'grey'}}/>
+                  <Typography variant="body2" color="textSecondary" ml={1}>
+                    Activities
+                  </Typography>
+                </Box>
+                <Box display="flex" alignItems="center" mb={1}>
+                  <RemoveDoneIcon sx={{color:'grey'}}/>
+                  <Typography variant="body2" color="textSecondary" ml={1}>
+                    Events
+                  </Typography>
+                </Box>
+                <Box display="flex" alignItems="center" mb={1}>
+                  <RemoveDoneIcon sx={{color:'grey'}}/>
+                  <Typography variant="body2" color="textSecondary" ml={1}>
+                   Full Itinerary
                   </Typography>
                 </Box>
               </CardContent>
@@ -53,8 +79,8 @@ const Packages = () => {
         <Grid item xs={10} sm={6} md={3.5} zIndex={3} position="relative" marginTop="-50px">
           <Card elevation={20} sx={mCardStyle}>
           <CardContent>
-                <Typography variant="h5" component="h2" gutterBottom>
-                  Basic
+                <Typography variant="h5" component="h2" gutterBottom sx={{ textAlign: 'center' }}>
+                  Standard
                 </Typography>
                 <Box component="img" src={unsplash1} alt="Basic Plan" sx={{ width: '100%', height: 'auto', marginBottom: '16px' }} />
                 <Box display="flex" alignItems="center" mb={1}>
@@ -69,10 +95,34 @@ const Packages = () => {
                     Stay
                   </Typography>
                 </Box>
-                <Box display="flex" alignItems="center">
+                <Box display="flex" alignItems="center" mb={1}>
                   <DoneAllIcon/>
                   <Typography variant="body2" color="textSecondary" ml={1}>
                     Local Travel
+                  </Typography>
+                </Box>
+                <Box display="flex" alignItems="center" mb={1}>
+                <DoneAllIcon/>
+                  <Typography variant="body2" color="textSecondary" ml={1}>
+                  Party
+                  </Typography>
+                </Box>
+                <Box display="flex" alignItems="center" mb={1}>
+                <DoneAllIcon/>
+                  <Typography variant="body2" color="textSecondary" ml={1}>
+                  Activities
+                  </Typography>
+                </Box>
+                <Box display="flex" alignItems="center" mb={1}>
+                  <RemoveDoneIcon sx={{color:'grey'}}/>
+                  <Typography variant="body2" color="textSecondary" ml={1}>
+                  Events
+                  </Typography>
+                </Box>
+                <Box display="flex" alignItems="center" mb={1}>
+                  <RemoveDoneIcon sx={{color:'grey'}}/>
+                  <Typography variant="body2" color="textSecondary" ml={1}>
+                  Full Itinerary
                   </Typography>
                 </Box>
               </CardContent>
@@ -83,8 +133,8 @@ const Packages = () => {
         <Grid item xs={10} sm={6} md={3} zIndex={2} position="relative">
           <Card elevation={10} sx={cardStyle}>
           <CardContent>
-                <Typography variant="h5" component="h2" gutterBottom>
-                  Basic
+                <Typography variant="h5" component="h2" gutterBottom sx={{ textAlign: 'center' }}>
+                  Premium
                 </Typography>
                 <Box component="img" src={unsplash1} alt="Basic Plan" sx={{ width: '100%', height: 'auto', marginBottom: '16px' }} />
                 <Box display="flex" alignItems="center" mb={1}>
@@ -99,10 +149,34 @@ const Packages = () => {
                     Stay
                   </Typography>
                 </Box>
-                <Box display="flex" alignItems="center">
+                <Box display="flex" alignItems="center" mb={1}>
                   <DoneAllIcon/>
                   <Typography variant="body2" color="textSecondary" ml={1}>
                     Local Travel
+                  </Typography>
+                </Box>
+                <Box display="flex" alignItems="center" mb={1}>
+                <DoneAllIcon/>
+                  <Typography variant="body2" color="textSecondary" ml={1}>
+                  Party
+                  </Typography>
+                </Box>
+                <Box display="flex" alignItems="center" mb={1}>
+                <DoneAllIcon/>
+                  <Typography variant="body2" color="textSecondary" ml={1}>
+                  Activities
+                  </Typography>
+                </Box>
+                <Box display="flex" alignItems="center" mb={1}>
+                <DoneAllIcon/>
+                  <Typography variant="body2" color="textSecondary" ml={1}>
+                  Events
+                  </Typography>
+                </Box>
+                <Box display="flex" alignItems="center" mb={1}>
+                <DoneAllIcon/>
+                  <Typography variant="body2" color="textSecondary" ml={1}>
+                  Full Itinerary
                   </Typography>
                 </Box>
               </CardContent>
