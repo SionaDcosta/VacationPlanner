@@ -1,6 +1,14 @@
 import React from 'react';
 import {Card, CardContent, Typography, Grid} from '@mui/material'
 const Contact = () => {
+    const cardStyle = {
+        // width: '300px',  // Adjust the width as needed
+        height: '400px', // Adjust the height as needed
+      };
+      const mCardStyle={
+        // width:"300px",
+        height:'500px',
+      };
   return (
     <div className='pt-40 '>
         <div>
@@ -8,10 +16,10 @@ const Contact = () => {
         </div>
       
       <div className='pt-20 p-20'>
-      <Grid container spacing={3} justifyContent="center" className="mt-8">
+      <Grid container spacing={-1} justifyContent="center" className="mt-8">
         {/* First Card */}
-        <Grid item xs={10} sm={6} md={4} zIndex={2} position="relative">
-          <Card elevation={5}>
+        <Grid item xs={10} sm={6} md={3} zIndex={2} position="relative">
+          <Card elevation={10} sx={cardStyle}>
             <CardContent>
               <Typography variant="h5" component="h2">
                 Package 1
@@ -24,8 +32,8 @@ const Contact = () => {
         </Grid>
 
         {/* Second Card (Elevated) */}
-        <Grid item xs={10} sm={6} md={4} zIndex={3} position="relative" marginTop="-50px">
-          <Card elevation={10}>
+        <Grid item xs={10} sm={6} md={3.5} zIndex={3} position="relative" marginTop="-50px">
+          <Card elevation={20} sx={mCardStyle}>
             <CardContent>
               <Typography variant="h5" component="h2">
                 Package 2
@@ -38,8 +46,8 @@ const Contact = () => {
         </Grid>
 
         {/* Third Card */}
-        <Grid item xs={10} sm={6} md={4} zIndex={2} position="relative">
-          <Card elevation={5}>
+        <Grid item xs={10} sm={6} md={3} zIndex={2} position="relative">
+          <Card elevation={10} sx={cardStyle}>
             <CardContent>
               <Typography variant="h5" component="h2">
                 Package 3
